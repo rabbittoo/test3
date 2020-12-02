@@ -13,7 +13,7 @@ ActionChains(driver).move_to_element(link).perform()
 driver.find_element_by_link_text("搜索设置").click()
 
 driver.find_element_by_class_name("prefpanelgo").click()
-time.sleep(2)
+time.sleep(3)
 
 driver.switch_to.alert.accept()
 
